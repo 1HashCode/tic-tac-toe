@@ -19,7 +19,7 @@ Responsive design, playable on both desktop and mobile devices.
 ## Getting Started
 To play the game, simply open the index.html file in your web browser. 
 
-Alternatively, you can try the live demo hosted on Netlify using this link: https://app.netlify.com/sites/sunny-dasik-0bb070/https://app.netlify.com/sites/sunny-dasik-0bb070/
+Alternatively, you can try the live demo hosted on Netlify using this link: https://sunny-dasik-0bb070.netlify.app/
 
 ## Contributing
 If you'd like to contribute to this project, follow these steps:
