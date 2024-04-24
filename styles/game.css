@@ -1,0 +1,64 @@
+#active-game {
+  text-align: center;
+  margin: 2rem 0 5rem 0;
+  display: none;
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+  0px -4px 10px rgba(255,255,255,0.3);
+}
+
+#game-over {
+  width: 90%;
+  max-width: 40rem;
+  margin: auto;
+  padding: 1rem 2rem;
+  background-color: #155368;
+  background-image: linear-gradient(180deg, #1d6198 0%, #31b6e7 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  border-radius: 4px;
+  display: none;
+}
+
+#game-over h2 {
+  font-size: 2.2rem;
+  margin: 0.5rem 0;
+}
+
+#active-player-name {
+  font-weight: bold;
+  
+}
+
+#game-board {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 6rem); /*6rem 6rem 6rem */
+  grid-template-rows: repeat(3, 6rem);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#game-board li {
+  background-image: linear-gradient(160deg, #8ccdea 0%, #b7eae2 100%);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex; /*to put the cross or 0 sign to be in the center*/
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+}
+
+#game-board li:hover {
+  background-image: linear-gradient(160deg, #0d6f94 0%, #85d4c9 100%);
+}
+
+#game-board li.disabled {
+  background-image: linear-gradient(160deg, #0d6f94 0%, #85d4c9 100%);
+  color: white;
+  cursor: default;
+}
